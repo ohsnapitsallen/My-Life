@@ -11,5 +11,7 @@ while morelines != "n":
     print("Are there more lines? y/n")
     morelines = input()
 #Starts the function again if user wants to write more
+  if morelines == "y":
+      print("Please enter another line")
 #Ends the program if the user is done
 #Restarts the loop if the input is an invalid response
