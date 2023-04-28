@@ -15,5 +15,7 @@ while morelines != "n":
       print("Please enter another line")
       #Ends the program if the user is done
   elif morelines == "n":
-     break
+      break
 #Restarts the loop if the input is an invalid response
+   else:
+       print("Invalid input, please try again.")
